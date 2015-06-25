@@ -1,0 +1,16 @@
+ros-indigo-openslam-gmapping (0.1.1-0trusty) trusty; urgency=high
+
+  * fix cppcheck warnings
+  * License from BSD to CC
+  * Contributors: Isaac IY Saito, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 24 Jun 2015 22:00:00 -0000
+
+ros-indigo-openslam-gmapping (0.1.0-0trusty) trusty; urgency=high
+
+  * Forked from https://openslam.informatik.uni-freiburg.de/data/svn/gmapping/trunk/
+  * Catkinized and prepared for release into the ROS ecosystem
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 28 Jun 2013 18:33:53 +0200
+
+
