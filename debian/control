@@ -1,0 +1,12 @@
+Source: ros-indigo-openslam-gmapping
+Section: misc
+Priority: extra
+Maintainer: Vincent Rabaud <vincent.rabaud@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://openslam.org/gmapping
+Standards-Version: 3.9.2
+
+Package: ros-indigo-openslam-gmapping
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: ROS-ified version of gmapping SLAM. Forked from https://openslam.informatik.uni-freiburg.de/data/svn/gmapping/trunk/
