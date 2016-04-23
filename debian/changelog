@@ -1,0 +1,29 @@
+ros-kinetic-openslam-gmapping (0.1.2-0xenial) xenial; urgency=high
+
+  * better Windows compilation
+    This is taken from #9 <https://github.com/ros-perception/openslam_gmapping/issues/9> which can now be closed.
+  * fix a few more graphics stuff for Qt5
+  * get GUI back in shape for those interested
+  * use srand instead of srand48
+    srand48 is non-standard and we are using a seed that is an
+    unsigned int so we might as well use srand
+  * Contributors: Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 22 Apr 2016 22:00:00 -0000
+
+ros-kinetic-openslam-gmapping (0.1.1-0xenial) xenial; urgency=high
+
+  * fix cppcheck warnings
+  * License from BSD to CC
+  * Contributors: Isaac IY Saito, Vincent Rabaud
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Wed, 24 Jun 2015 22:00:00 -0000
+
+ros-kinetic-openslam-gmapping (0.1.0-0xenial) xenial; urgency=high
+
+  * Forked from https://openslam.informatik.uni-freiburg.de/data/svn/gmapping/trunk/
+  * Catkinized and prepared for release into the ROS ecosystem
+
+ -- Vincent Rabaud <vincent.rabaud@gmail.com>  Fri, 28 Jun 2013 18:33:53 +0200
+
+
