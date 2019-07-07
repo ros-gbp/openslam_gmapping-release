@@ -5,7 +5,7 @@
 #include <list>
 #include <gmapping/utils/point.h>
 #include <gmapping/utils/commandline.h>
-#include "gfsreader.h"
+#include "gmapping/gridfastslam/gfsreader.h"
 #define MAX_LINE_LENGHT (1000000)
 
 using namespace std;

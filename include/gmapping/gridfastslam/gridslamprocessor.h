@@ -13,7 +13,7 @@
 #include <gmapping/sensor/sensor_range/rangesensor.h>
 #include <gmapping/sensor/sensor_range/rangereading.h>
 #include <gmapping/scanmatcher/scanmatcher.h>
-#include "motionmodel.h"
+#include "gmapping/gridfastslam/motionmodel.h"
 
 
 namespace GMapping {
@@ -330,7 +330,7 @@ namespace GMapping {
 typedef std::multimap<const GridSlamProcessor::TNode*, GridSlamProcessor::TNode*> TNodeMultimap;
 
 
-#include "gridslamprocessor.hxx"
+#include "gmapping/gridfastslam/gridslamprocessor.hxx"
 
 };
 

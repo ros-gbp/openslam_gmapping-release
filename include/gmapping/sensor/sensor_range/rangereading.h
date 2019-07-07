@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <gmapping/sensor/sensor_base/sensorreading.h>
-#include <gmapping/sensor/sensor_range/rangesensor.h>
+#include "gmapping/sensor/sensor_range/rangesensor.h"
 
 namespace GMapping{
 

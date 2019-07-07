@@ -1,8 +1,8 @@
 #include <list>
 #include <iostream>
 
-#include <gmapping/scanmatcher/scanmatcher.h>
-#include "gridlinetraversal.h"
+#include "gmapping/scanmatcher/scanmatcher.h"
+#include "gmapping/scanmatcher/gridlinetraversal.h"
 //#define GENERATE_MAPS
 
 using namespace std;

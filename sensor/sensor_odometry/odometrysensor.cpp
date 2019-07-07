@@ -1,4 +1,4 @@
-#include <gmapping/sensor/sensor_odometry/odometrysensor.h>
+#include "gmapping/sensor/sensor_odometry/odometrysensor.h"
 
 namespace GMapping{
 

@@ -1,4 +1,4 @@
-#include <gmapping/sensor/sensor_base/sensorreading.h>
+#include "gmapping/sensor/sensor_base/sensorreading.h"
 
 namespace GMapping{
 

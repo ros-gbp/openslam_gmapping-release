@@ -7,7 +7,7 @@
 //#include <gsl/gsl_blas.h>
 
 #include <gmapping/utils/stat.h>
-#include <gmapping/gridfastslam/gridslamprocessor.h>
+#include "gmapping/gridfastslam/gridslamprocessor.h"
 
 namespace GMapping {
 

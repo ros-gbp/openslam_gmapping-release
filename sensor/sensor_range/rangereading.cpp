@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <sys/types.h>
 #include <gmapping/utils/gvalues.h>
-#include <gmapping/sensor/sensor_range/rangereading.h>
+#include "gmapping/sensor/sensor_range/rangereading.h"
 
 namespace GMapping{
 

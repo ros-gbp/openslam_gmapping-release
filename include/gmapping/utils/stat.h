@@ -1,14 +1,14 @@
 #ifndef STAT_H
 #define STAT_H
-#include "point.h"
+#include "gmapping/utils/point.h"
 #include <vector>
-#include "gvalues.h"
+#include "gmapping/utils/gvalues.h"
 
 namespace GMapping {
 
 /**stupid utility function for drawing particles form a zero mean, sigma variance normal distribution
 probably it should not go there*/
-double sampleGaussian(double sigma,unsigned int S=0);
+double sampleGaussian(double sigma,unsigned long int S=0);
 
 double evalGaussian(double sigmaSquare, double delta);
 double evalLogGaussian(double sigmaSquare, double delta);

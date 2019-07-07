@@ -21,13 +21,13 @@
  *****************************************************************/
 
 
-#include "qparticleviewer.h"
-#include "qgraphpainter.h"
+#include "gmapping/gui/qparticleviewer.h"
+#include "gmapping/gui/qgraphpainter.h"
 #include <qapplication.h>
 #include <qframe.h>
 #include <qlabel.h>
 #include <qlayout.h>
-#include <QVBoxLayout>
+#include <qvbox.h>
 #include <qmainwindow.h>
 
 class GFSMainWindow: public QMainWindow{
@@ -37,7 +37,7 @@ public:
     QVBoxLayout* layout=new QVBoxLayout(this);
     pviewer=new QParticleViewer(this,0,0,gsp_thread);
     pviewer->setGeometry(0,0,500,500);
-    pviewer->setFocusPolicy(Qt::ClickFocus);
+    pviewer->setFocusPolicy(QParticleViewer::ClickFocus);
     layout->addWidget(pviewer);
 						
     gpainter=new QGraphPainter(this);
@@ -87,6 +87,7 @@ int  main (int argc, char ** argv){
   cerr <<"File successfully loaded!"<< endl;
   QApplication app(argc, argv);
   GFSMainWindow* mainWin=new GFSMainWindow(gsp);
+  app.setMainWidget(mainWin);
   mainWin->show();
   gsp->setEventBufferSize(10000);
   gsp->start();
